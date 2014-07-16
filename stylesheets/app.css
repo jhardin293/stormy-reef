@@ -8048,3 +8048,53 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 4, ../scss/app.scss */
+header.header-overlay {
+  background: transparent;
+  position: absolute !important;
+  left: 0;
+}
+
+/* line 9, ../scss/app.scss */
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* line 14, ../scss/app.scss */
+#logo {
+  height: 60px;
+  float: left;
+  padding: 20px 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 22, ../scss/app.scss */
+.menu {
+  position: relative;
+  float: right;
+  margin-top: 35px;
+}
+
+/* line 28, ../scss/app.scss */
+nav#main-nav {
+  z-index: 50;
+}
+/* line 31, ../scss/app.scss */
+nav#main-nav ul {
+  position: relative;
+  z-index: 49;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 38, ../scss/app.scss */
+nav#main-nav ul li {
+  position: relative;
+  z-index: 45;
+  float: right;
+  margin: 0 0 0 30px;
+  padding: 0;
+  min-width: 10px;
+}

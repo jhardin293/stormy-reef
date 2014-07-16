@@ -1,6 +1,53 @@
 @import "settings";
 @import "foundation";
 
+header.header-overlay{
+    background:transparent;
+	position: absolute !important;
+	left:0;
+}
+.wrapper{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#logo{
+	height:60px;
+	float:left;
+	padding:20px 0;
+	max-width:100%;
+	max-height:100%;
+}
+
+.menu {
+	position: relative;
+	float: right;
+	margin-top:35px;
+}
+
+nav#main-nav{
+	z-index: 50;
+	
+	ul{
+		position: relative;
+		z-index:49;
+		margin:0;
+		padding:0;
+		list-style:none;
+		
+		li{
+			position: relative;
+			z-index: 45;
+			float: right;
+			margin: 0 0 0 30px;
+			padding:0;
+			min-width:10px;
+		}
+	}
+
+}
+
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
